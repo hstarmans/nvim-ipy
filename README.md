@@ -1,5 +1,6 @@
 # nvim-ipy
 This is a Jupyter front-end for Neovim, partially based on [ivanov/vim-ipython](https://github.com/ivanov/vim-ipython), but refactored for nvim's plugin architechture and improved async event handling. Jupyter 4.x or later is required. It uses python3 per default; see below for notes on using python2. It has full support for non-python kernels.
+After installing run ":UpdateRemotePlugins" and restart nvim, this prevents a problem with "IPyConnect".
 
 It doesn't have all features of `vim-ipython`, but it has better support for long-running commands that continously produce output, for instance this silly example:
 
